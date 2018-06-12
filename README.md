@@ -1,2 +1,2 @@
 # js
-Repositorio para orgamizar mis practicas de JavaScript
+Repositorio para organizar algunas de mis practicas javascript
