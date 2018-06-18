@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/02-eventos.js"></script>
+    <style>
+        #caja{
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background: red;
+            color: blue;
+            transition: 300ms all; 
+        }
+        /* #caja:hover{
+            
+            background: yellow;
+            cursor:pointer;
+        } */
+
+        input{
+            padding: 20px;
+            width: 300px;
+            font-size: 20px;
+        }
+        #datos{
+            border: 4px dashed black;
+            padding: 10px;
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+            display: none;
+        }
+
+        #sigueme{
+            width: 25px;
+            height: 25px;
+            position:absolute;
+            display: block;
+            background: yellow;
+            opacity:0.3;
+            border-radius:999px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="sigueme"></div>
+    <form>
+        <input type="text" id="nombre">
+    </form>
+    <br>
+    <div id="datos">
+
+    </div>
+    <br>
+    <div id="caja">
+        soy un div
+    </div>
+
+  
+
+</body>
+</html>
