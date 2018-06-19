@@ -63,7 +63,7 @@ function cambiaVerde() {
 
     //mousemove
 
-    $(document).mousemove(function(){
+    $(document).mousemove(function(event){
         $('body').css("cursor","none");
         console.log("en x" + event.clientX);
         console.log("en y" + event.clientY);
